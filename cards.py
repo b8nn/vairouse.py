@@ -57,8 +57,8 @@ randomnumber6=random.choice(numbers)
 yes = ["y" , "Y" , "yes" , "Yes"]
 complet = ("")
 ####################################
-retry="y"
-while retry =="y":
+retry="yes"
+while retry == "yes" :
     while complet not in yes :
         complet = input ("to countinue writ[y,yes]? ")
         if complet == "Y" or complet == "Yes" or complet == "yes" or complet == "y" :
@@ -104,5 +104,5 @@ while retry =="y":
             print("[20] "+random.choice(letter)+random.choice(letter)+random.choice(letter)+random.choice(letter)+"-"+random.choice(letter)+random.choice(letter)+random.choice(letter)+random.choice(letter)+"-"+random.choice(letter)+str (random.choice(numbers))+random.choice(letter)+str (random.choice(numbers))+"-"+random.choice(letter)+random.choice(letter)+random.choice(letter)+str (random.choice(numbers))+"-"+str (random.choice(numbers))+str (random.choice(numbers))+random.choice(letter)+str(random.choice(numbers)))
         else:
             complet = ""
-retry = input ("to countinue writ [y] or [n]? ")
+retry = input ("to countinue writ [yes] or [no]? ")
 
