@@ -56,7 +56,7 @@ randomnumber6=random.choice(numbers)
 ####################################
 yes = ["y" , "Y" , "yes" , "Yes"]
 complet = ("")
-retry = ""
+retry = "y"
 ########If..
 while retry == "y":
     while complet not in yes :
