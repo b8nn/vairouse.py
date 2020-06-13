@@ -105,16 +105,5 @@ while retry =="y":
             print("[20] "+random.choice(letter)+random.choice(letter)+random.choice(letter)+random.choice(letter)+"-"+random.choice(letter)+random.choice(letter)+random.choice(letter)+random.choice(letter)+"-"+random.choice(letter)+str (random.choice(numbers))+random.choice(letter)+str (random.choice(numbers))+"-"+random.choice(letter)+random.choice(letter)+random.choice(letter)+str (random.choice(numbers))+"-"+str (random.choice(numbers))+str (random.choice(numbers))+random.choice(letter)+str(random.choice(numbers)))
         else:
             complet = ""
-####################################
-
-
-    print ("")
-    print("thanks f0r use my tool")
-    time.sleep(2)
-    print("")
-    print("i will update the tool soon")
-    print("")
-    time.sleep(3)
-    print ("@made by clay88")
-    retry = input ("to countinue writ [y] or [n]? ")
+retry = input ("to countinue writ [y] or [n]? ")
 
