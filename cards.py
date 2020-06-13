@@ -56,9 +56,10 @@ randomnumber6=random.choice(numbers)
 ####################################
 yes = ["y" , "Y" , "yes" , "Yes"]
 complet = ("")
-retry = "y"
-########If..
-while retry == "y":
+####################################
+retry="y"
+while retry =="y":
+    print ("Hello!!")
     while complet not in yes :
         complet = input ("to countinue writ[y,yes]? ")
         if complet == "Y" or complet == "Yes" or complet == "yes" or complet == "y" :
@@ -115,5 +116,5 @@ while retry == "y":
     print("")
     time.sleep(3)
     print ("@made by clay88")
-    retry = input ("to countinue writ [y] or [n]")
+    retry = input ("to countinue writ [y] or [n]? ")
 
