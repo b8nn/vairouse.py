@@ -115,5 +115,5 @@ while retry == "y":
     print("")
     time.sleep(3)
     print ("@made by clay88")
-retry = input ("to countinue writ [y] or [n]")
+    retry = input ("to countinue writ [y] or [n]")
 
